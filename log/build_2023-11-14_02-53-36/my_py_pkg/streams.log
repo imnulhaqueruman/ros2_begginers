@@ -1,0 +1,39 @@
+[0.907s] Invoking command in '/home/emon/development/ros2_begginers': PYTHONPATH=/home/emon/development/ros2_begginers/build/my_py_pkg/prefix_override:/home/emon/development/ros2_begginers/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_py_pkg build --build-base /home/emon/development/ros2_begginers/build/my_py_pkg/build install --record /home/emon/development/ros2_begginers/build/my_py_pkg/install.log --single-version-externally-managed
+[1.200s] running egg_info
+[1.201s] creating build/my_py_pkg/my_py_pkg.egg-info
+[1.201s] writing build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.201s] writing dependency_links to build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.202s] writing entry points to build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.202s] writing requirements to build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.202s] writing top-level names to build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.202s] writing manifest file 'build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.204s] reading manifest file 'build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.205s] writing manifest file 'build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.205s] running build
+[1.206s] running build_py
+[1.206s] creating /home/emon/development/ros2_begginers/build/my_py_pkg/build
+[1.206s] creating /home/emon/development/ros2_begginers/build/my_py_pkg/build/lib
+[1.206s] creating /home/emon/development/ros2_begginers/build/my_py_pkg/build/lib/my_py_pkg
+[1.206s] copying my_py_pkg/__init__.py -> /home/emon/development/ros2_begginers/build/my_py_pkg/build/lib/my_py_pkg
+[1.206s] copying my_py_pkg/my_first_node.py -> /home/emon/development/ros2_begginers/build/my_py_pkg/build/lib/my_py_pkg
+[1.206s] running install
+[1.208s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.208s]   warnings.warn(
+[1.209s] running install_lib
+[1.210s] creating /home/emon/development/ros2_begginers/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.211s] copying /home/emon/development/ros2_begginers/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/emon/development/ros2_begginers/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.211s] copying /home/emon/development/ros2_begginers/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/emon/development/ros2_begginers/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.212s] byte-compiling /home/emon/development/ros2_begginers/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[1.212s] byte-compiling /home/emon/development/ros2_begginers/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[1.213s] running install_data
+[1.213s] creating /home/emon/development/ros2_begginers/install/my_py_pkg/share/ament_index
+[1.214s] creating /home/emon/development/ros2_begginers/install/my_py_pkg/share/ament_index/resource_index
+[1.214s] creating /home/emon/development/ros2_begginers/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.214s] copying resource/my_py_pkg -> /home/emon/development/ros2_begginers/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.214s] copying package.xml -> /home/emon/development/ros2_begginers/install/my_py_pkg/share/my_py_pkg
+[1.214s] running install_egg_info
+[1.218s] Copying build/my_py_pkg/my_py_pkg.egg-info to /home/emon/development/ros2_begginers/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.219s] running install_scripts
+[1.247s] Installing py_node script to /home/emon/development/ros2_begginers/install/my_py_pkg/lib/my_py_pkg
+[1.247s] writing list of installed files to '/home/emon/development/ros2_begginers/build/my_py_pkg/install.log'
+[1.277s] Invoked command in '/home/emon/development/ros2_begginers' returned '0': PYTHONPATH=/home/emon/development/ros2_begginers/build/my_py_pkg/prefix_override:/home/emon/development/ros2_begginers/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/my_py_pkg build --build-base /home/emon/development/ros2_begginers/build/my_py_pkg/build install --record /home/emon/development/ros2_begginers/build/my_py_pkg/install.log --single-version-externally-managed

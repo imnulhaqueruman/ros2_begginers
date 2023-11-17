@@ -14,3 +14,36 @@ sudo apt install python3-colcon-common-extensions
 gedit ~/.bashrc
 # Add the following line at the end of the file and save it
 source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.bash
+```
+# ROS2 python package 
+```bash
+# cd to your directory 
+cd ros2_ws/src
+# create pkg command 
+ros2 pkg create my_py_pkg(pkg name) --build-type (argument) ament_python --dependencies rclpy
+
+```
+ 
+# before build to check 
+```bash
+ pip3 list 
+ # if not found 
+ sudo apt install python3-pip
+ # then check again 
+ pip3 list 
+
+ pip3 list | grep setuptools 
+
+ # check verison and upgrade 
+ pip3 install setuptools==version no
+
+```
+# Compile to your package
+```bash
+colcon build 
+# your package successfully build 
+
+# if you want build all packages
+colcon build --packages-select my_py_pkg 
+# hurrah! your python package now ready to host any python node 
+```
