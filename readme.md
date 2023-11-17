@@ -94,8 +94,9 @@ def main(args=None):
 if __name__=="__main__"
     main()
 ```
-# Run node using this command : 
+#### After writing the node, you compile it, and you re-source your environment in order to use it. Nodes are compiled (only for Cpp), and installed (for both Python and Cpp), inside the install/ folder of your ROS2 workspace
 ```bash
+# You can directly execute them from here, or by using the command line tool “ros2 run <package> <executable>”.
  ros2 run my_py_pkg py_node 
  # first build 
  colcon build 
