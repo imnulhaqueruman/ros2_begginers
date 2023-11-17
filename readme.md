@@ -61,3 +61,36 @@ ros2 pkg create my_cp_pkg --build-type ament_cmake --dependencies rclcpp
 * Combined into a graph .
 * Two nodes communicate with each other through ros topics , service and parameter .
 ![Alt text](image-1.png)
+
+# Run any node 
+```bash
+# executeable command 
+cd /directory/my_py_pkg
+chmod +x my_first_node.py 
+./my_first_node.py
+```
+## After creating node add this node in console scripts inside the setup.py folder and then run 
+```bash
+colcon build 
+# after build the node it will store in install folder 
+cd /install/my_py_pkg/my_py_pkg/lib 
+and run ./py_node
+```
+# Basic Python node template you can use to create every node 
+```python
+import rclpy
+import rclpy.node import Node 
+
+class Mynode(Node):
+    def __init__(self):
+        super().__init__("py_test")
+        self.get_logger().info("Hello ROS2")
+
+def main(args=None):
+    rclpy.init(args=args)
+    node = Mynode()
+    rclpy.spin(node)
+    rclpy.shutdown()
+if __name__=="__main__"
+    main()
+```
