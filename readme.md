@@ -43,7 +43,20 @@ ros2 pkg create my_py_pkg(pkg name) --build-type (argument) ament_python --depen
 colcon build 
 # your package successfully build 
 
-# if you want build all packages
+# if you want build specific  packages
 colcon build --packages-select my_py_pkg 
 # hurrah! your python package now ready to host any python node 
 ```
+# Create C++ package 
+```bash
+ros2 pkg create my_cp_pkg --build-type ament_cmake --dependencies rclcpp
+```
+# Build c++ package 
+```bash
+  colcon build 
+  colcon build --packages-select my_cp_pkg
+```
+# ROS2 -Nodes 
+..* subprograms in your application, responsible for only one thing as like class 
+..* Combined into a graph 
+..* Two nodes communicate with each other through ros topics , service and parameter 
