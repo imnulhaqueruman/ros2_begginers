@@ -60,4 +60,4 @@ ros2 pkg create my_cp_pkg --build-type ament_cmake --dependencies rclcpp
 * subprograms in your application, responsible for only one thing as like class .
 * Combined into a graph .
 * Two nodes communicate with each other through ros topics , service and parameter .
-![Alt text](image.png)
+![Alt text](image-1.png)
