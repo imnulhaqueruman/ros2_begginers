@@ -94,3 +94,13 @@ def main(args=None):
 if __name__=="__main__"
     main()
 ```
+# Run node using this command : 
+```bash
+ ros2 run my_py_pkg py_node 
+ # first build 
+ colcon build 
+ cd /ros2_bigginers 
+ source install/setup.bash
+
+ # then this command will execute any where 
+```

@@ -17,7 +17,7 @@ class MyNode(Node):
 def main(args=None):
     rclpy.init(args=args) ## initialize ros to create ros communiation 
     node = MyNode()
-    rclpy.spin(node) # spin allow to node alive
+    rclpy.spin(node) # spin allow to node
     rclpy.shutdown() # ros communication shutdown
 if __name__== "__main__":
     main()
