@@ -133,3 +133,5 @@ rqt
 #### I have run some nodes with different names, and here is what I see with rqt_graph.
 #### monitoring the runing node selecting Plugins > Introspection > Node Graph.
 ![Alt text](image-2.png)
+
+#### In this section you’ve discovered 2 important tools you’ll use for any ROS2 application you develop: the ros2 cli (Command Line Interface), and rqt with all its plugins. During the course you’ll continue to practice with those tools, and you’ll discover more of them.
