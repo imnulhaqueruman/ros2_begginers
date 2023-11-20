@@ -1,0 +1,17 @@
+[1.370s] Invoking command in '/home/emon/development/ros2_begginers/build/my_py_pkg': PYTHONPATH=/home/emon/development/ros2_begginers/build/my_py_pkg/prefix_override:/home/emon/development/ros2_begginers/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emon/development/ros2_begginers/build/my_py_pkg/build --no-deps install_data
+[1.885s] running develop
+[2.356s] running egg_info
+[2.357s] writing my_py_pkg.egg-info/PKG-INFO
+[2.357s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[2.358s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[2.359s] writing requirements to my_py_pkg.egg-info/requires.txt
+[2.359s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[2.364s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.366s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[2.369s] running build_ext
+[2.371s] Creating /home/emon/development/ros2_begginers/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[2.375s] Installing py_node script to /home/emon/development/ros2_begginers/install/my_py_pkg/lib/my_py_pkg
+[2.377s] 
+[2.377s] Installed /home/emon/development/ros2_begginers/build/my_py_pkg
+[2.377s] running install_data
+[2.478s] Invoked command in '/home/emon/development/ros2_begginers/build/my_py_pkg' returned '0': PYTHONPATH=/home/emon/development/ros2_begginers/build/my_py_pkg/prefix_override:/home/emon/development/ros2_begginers/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emon/development/ros2_begginers/build/my_py_pkg/build --no-deps install_data

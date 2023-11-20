@@ -40,7 +40,7 @@ ros2 run <package_name> <executable_name>
   Action Clients:
 ```
 # Remapping 
-## In production we have to need rename a node at runtime .If we run same node in two times it will run in ros2 but the output will be like this 
+#### In production we have to need rename a node at runtime .If we run same node in two times it will run in ros2 but the output will be like this 
 
 ```bash
    # 1st terminal 
@@ -89,3 +89,40 @@ class Mynode(Node):
         self.get_logger().info("Hello ROS2")
 
 ```
+# Againg colcon 
+#### In development time after modify python file you have to complie every time for changes and run 
+```bash
+ colcon build --packages-select my_py_pkg 
+
+```
+#### But every time compile for new changes it will be painful for us .We can use symlink argument with colcon build to avoid this 
+
+```bash
+ colcon build --packages-select my_py_pkg --symlink-install
+```
+#### To run executable this package node, into to pakcage directory using cd and run 
+```bash
+  chmod +x my_first_node.py
+```
+# RQT GUI 
+
+#### Rqt is a debugging tool or GUI , it's help to debugging ros2 in development proccess 
+#### rqt_graph to visualize the changing nodes and topics, as well as the connections between them.
+
+```bash
+# run 
+rqt 
+# open a gui 
+```
+![Alt text](image.png) 
+
+#### To monitoring the runing node selecting Plugins > Introspection > Node Graph
+```bash
+  # run node 
+  ros2 run my_py_pkg py_node 
+  ros2 run my_py_pkg py_node --ros-args --remap __node:=abc  
+```
+#### Referesh rqt graph 
+![Alt text](image-1.png)
+
+[Click to read about rqt_graph](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html)
