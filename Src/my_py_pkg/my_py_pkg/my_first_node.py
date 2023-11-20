@@ -19,5 +19,6 @@ def main(args=None):
     node = MyNode()
     rclpy.spin(node) # spin allow to node
     rclpy.shutdown() # ros communication shutdown
+    
 if __name__== "__main__":
     main()
