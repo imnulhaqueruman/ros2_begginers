@@ -39,3 +39,53 @@ ros2 run <package_name> <executable_name>
 
   Action Clients:
 ```
+# Remapping 
+## In production we have to need rename a node at runtime .If we run same node in two times it will run in ros2 but the output will be like this 
+
+```bash
+   # 1st terminal 
+   ros2 run my_py_pkg py_node 
+   # 2nd terminal 
+   ros2 run my_py_pkg py_node 
+   # output will be like this 
+   ros2 node list
+    WARNING: Be aware that are nodes in the graph that share an exact name, this can have unintended side effects.
+    /py_test
+    /py_test
+
+```
+#### To avoid this we can use remaping concept to run same node multiple time 
+
+```bash
+# run 
+ros2 run my_py_pkg py_node
+# output 
+[INFO] [1700504141.799906847] [py_test]: Hello ROS2
+[INFO] [1700504142.301921317] [py_test]: Hello1
+[INFO] [1700504142.802002565] [py_test]: Hello2
+[INFO] [1700504143.301641592] [py_test]: Hello3
+[INFO] [1700504143.801780340] [py_test]: Hello4
+
+# this command will help you to run same node multiple time 
+ros2 run my_py_pkg py_node --ros-args --remap __node:=abc 
+# after run this command output 
+[INFO] [1700504063.619443744] [abc]: Hello ROS2
+[INFO] [1700504064.121111773] [abc]: Hello1
+[INFO] [1700504064.621056218] [abc]: Hello2
+[INFO] [1700504065.121293105] [abc]: Hello3
+[INFO] [1700504065.620878255] [abc]: Hello4
+[INFO] [1700504066.120831051] [abc]: Hello5
+
+```
+#### Here run same node 2 timer after remaping py_test node will be change abc node and run this node without any warning 
+
+```python
+import rclpy
+import rclpy.node import Node 
+
+class Mynode(Node):
+    def __init__(self):
+        super().__init__("py_test") # here node will be dynamically change when run rempaing command to run node multiple times
+        self.get_logger().info("Hello ROS2")
+
+```
