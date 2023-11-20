@@ -131,4 +131,5 @@ rqt
 [turtlesim](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Introducing-Turtlesim/Introducing-Turtlesim.html)
 
 #### I have run some nodes with different names, and here is what I see with rqt_graph.
+#### monitoring the runing node selecting Plugins > Introspection > Node Graph.
 ![Alt text](image-2.png)
