@@ -1,0 +1,2 @@
+Invoking command in '/home/emon/development/ros2_begginers/build/my_cp_pkg': CMAKE_PREFIX_PATH=/home/emon/development/ros2_begginers/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emon/development/ros2_begginers/build/my_cp_pkg -- -j8 -l8
+Invoked command in '/home/emon/development/ros2_begginers/build/my_cp_pkg' returned '2': CMAKE_PREFIX_PATH=/home/emon/development/ros2_begginers/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/emon/development/ros2_begginers/build/my_cp_pkg -- -j8 -l8

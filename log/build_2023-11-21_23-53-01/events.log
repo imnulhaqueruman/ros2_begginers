@@ -1,0 +1,160 @@
+[0.000000] (-) TimerEvent: {}
+[0.000165] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000407] (my_cp_pkg) JobQueued: {'identifier': 'my_cp_pkg', 'dependencies': OrderedDict()}
+[0.000730] (my_cp_pkg) JobStarted: {'identifier': 'my_cp_pkg'}
+[0.074892] (my_cp_pkg) JobProgress: {'identifier': 'my_cp_pkg', 'progress': 'cmake'}
+[0.075961] (my_cp_pkg) JobProgress: {'identifier': 'my_cp_pkg', 'progress': 'build'}
+[0.076003] (my_cp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/emon/development/ros2_begginers/build/my_cp_pkg', '--', '-j8', '-l8'], 'cwd': '/home/emon/development/ros2_begginers/build/my_cp_pkg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'emon'), ('LC_TIME', 'bn_BD'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/emon'), ('OLDPWD', '/home/emon/development/ros2_begginers/install'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'bn_BD'), ('MANAGERPID', '1966'), ('SYSTEMD_EXEC_PID', '2179'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('LIBVIRT_DEFAULT_URI', 'qemu:///system'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '25560'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/emon/development/ros2_begginers/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'emon'), ('JOURNAL_STREAM', '8:32433'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'emon'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/emon-ThinkPad-T480S:@/tmp/.ICE-unix/2132,unix/emon-ThinkPad-T480S:/tmp/.ICE-unix/2132'), ('INVOCATION_ID', '1108caca8ae44f1986250dc0c460bc07'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'bn_BD'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'bn_BD'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.J0RBE2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/emon/development/ros2_begginers/install/my_py_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'bn_BD'), ('TERMINATOR_UUID', 'urn:uuid:bfd4650e-84e2-4efe-93fb-17a2c3a80c4a'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'bn_BD'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'bn_BD'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/emon/development/ros2_begginers/build/my_cp_pkg'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/emon/development/ros2_begginers/install/my_py_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'bn_BD'), ('LC_PAPER', 'bn_BD'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/emon/development/ros2_begginers/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099802] (-) TimerEvent: {}
+[0.108347] (my_cp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199887] (-) TimerEvent: {}
+[0.300199] (-) TimerEvent: {}
+[0.323648] (my_cp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.372840] (my_cp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.375747] (my_cp_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.385774] (my_cp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.400009] (my_cp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.400258] (-) TimerEvent: {}
+[0.418485] (my_cp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500407] (-) TimerEvent: {}
+[0.511623] (my_cp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.513001] (my_cp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600544] (-) TimerEvent: {}
+[0.679482] (my_cp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.700666] (-) TimerEvent: {}
+[0.800970] (-) TimerEvent: {}
+[0.901291] (-) TimerEvent: {}
+[0.980237] (my_cp_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.996749] (my_cp_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.998606] (my_cp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/emon/development/ros2_begginers/build/my_cp_pkg\n'}
+[1.001408] (-) TimerEvent: {}
+[1.045208] (my_cp_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o\x1b[0m\n'}
+[1.101522] (-) TimerEvent: {}
+[1.201897] (-) TimerEvent: {}
+[1.302235] (-) TimerEvent: {}
+[1.402561] (-) TimerEvent: {}
+[1.502875] (-) TimerEvent: {}
+[1.603243] (-) TimerEvent: {}
+[1.703568] (-) TimerEvent: {}
+[1.803918] (-) TimerEvent: {}
+[1.904263] (-) TimerEvent: {}
+[2.004579] (-) TimerEvent: {}
+[2.104963] (-) TimerEvent: {}
+[2.205316] (-) TimerEvent: {}
+[2.305712] (-) TimerEvent: {}
+[2.406097] (-) TimerEvent: {}
+[2.506502] (-) TimerEvent: {}
+[2.606833] (-) TimerEvent: {}
+[2.707338] (-) TimerEvent: {}
+[2.807797] (-) TimerEvent: {}
+[2.908227] (-) TimerEvent: {}
+[3.008597] (-) TimerEvent: {}
+[3.109018] (-) TimerEvent: {}
+[3.209470] (-) TimerEvent: {}
+[3.309822] (-) TimerEvent: {}
+[3.410337] (-) TimerEvent: {}
+[3.510688] (-) TimerEvent: {}
+[3.611044] (-) TimerEvent: {}
+[3.711407] (-) TimerEvent: {}
+[3.811816] (-) TimerEvent: {}
+[3.912151] (-) TimerEvent: {}
+[4.012500] (-) TimerEvent: {}
+[4.112886] (-) TimerEvent: {}
+[4.213260] (-) TimerEvent: {}
+[4.313588] (-) TimerEvent: {}
+[4.413907] (-) TimerEvent: {}
+[4.514227] (-) TimerEvent: {}
+[4.614610] (-) TimerEvent: {}
+[4.704257] (my_cp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.704629] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.704841] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.705033] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.705215] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.705401] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.705574] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.705951] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.706151] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.706300] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.706447] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/emon/development/ros2_begginers/src/my_cp_pkg/src/my_first_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.706611] (my_cp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emon/development/ros2_begginers/src/my_cp_pkg/src/my_first_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.706802] (my_cp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emon/development/ros2_begginers/src/my_cp_pkg/src/my_first_node.cpp:7:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.707008] (my_cp_pkg) StderrLine: {'line': b'    7 |     RCLCPP_INFO(node.\x1b[01;31m\x1b[K>\x1b[m\x1b[Kget_logger(), "Hello CPP Node");\n'}
+[4.707220] (my_cp_pkg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.707408] (my_cp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emon/development/ros2_begginers/src/my_cp_pkg/src/my_first_node.cpp:7:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kget_logger\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.707621] (my_cp_pkg) StderrLine: {'line': b'    7 |     RCLCPP_INFO(node.>\x1b[01;31m\x1b[Kget_logger\x1b[m\x1b[K(), "Hello CPP Node");\n'}
+[4.707782] (my_cp_pkg) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.707958] (my_cp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:23\x1b[m\x1b[K,\n'}
+[4.708136] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.708292] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.708463] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.709188] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.709471] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.709685] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.709852] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.710043] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.710225] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.710399] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.710572] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/emon/development/ros2_begginers/src/my_cp_pkg/src/my_first_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.710797] (my_cp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:106:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::get_logger\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.710978] (my_cp_pkg) StderrLine: {'line': b'  106 |   friend Logger \x1b[01;36m\x1b[Krclcpp\x1b[m\x1b[K::get_logger(const std::string & name);\n'}
+[4.711165] (my_cp_pkg) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[4.711363] (my_cp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.711548] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.711730] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.711929] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.712111] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.712264] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.712470] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.712662] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.712886] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.713071] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.713244] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/emon/development/ros2_begginers/src/my_cp_pkg/src/my_first_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.713428] (my_cp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emon/development/ros2_begginers/src/my_cp_pkg/src/my_first_node.cpp:7:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.713613] (my_cp_pkg) StderrLine: {'line': b'    7 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node.>get_logger(), "Hello CPP Node");\n'}
+[4.713803] (my_cp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.713977] (my_cp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emon/development/ros2_begginers/src/my_cp_pkg/src/my_first_node.cpp:7:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.714184] (my_cp_pkg) StderrLine: {'line': b'    7 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node.>get_logger(), "Hello CPP Node");\n'}
+[4.714382] (my_cp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.714562] (my_cp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emon/development/ros2_begginers/src/my_cp_pkg/src/my_first_node.cpp:7:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.714726] (-) TimerEvent: {}
+[4.714956] (my_cp_pkg) StderrLine: {'line': b'    7 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node.>get_logger(), "Hello CPP Node");\n'}
+[4.715211] (my_cp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.715440] (my_cp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emon/development/ros2_begginers/src/my_cp_pkg/src/my_first_node.cpp:7:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K<declaration error>\x1b[m\x1b[K\xe2\x80\x99 is not a template [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[4.715639] (my_cp_pkg) StderrLine: {'line': b'    7 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node.>get_logger(), "Hello CPP Node");\n'}
+[4.715840] (my_cp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.716054] (my_cp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emon/development/ros2_begginers/src/my_cp_pkg/src/my_first_node.cpp:7:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.716239] (my_cp_pkg) StderrLine: {'line': b'    7 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node.>get_logger(), "Hello CPP Node");\n'}
+[4.716421] (my_cp_pkg) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.716614] (my_cp_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[4.716796] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[4.717004] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[4.717194] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[4.717357] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[4.717537] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[4.717708] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[4.717888] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[4.718072] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[4.718268] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[4.718444] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.718649] (my_cp_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/emon/development/ros2_begginers/src/my_cp_pkg/src/my_first_node.cpp:1\x1b[m\x1b[K:\n'}
+[4.718875] (my_cp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emon/development/ros2_begginers/src/my_cp_pkg/src/my_first_node.cpp:7:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.719066] (my_cp_pkg) StderrLine: {'line': b'    7 |     RCLCPP_INFO(node.\x1b[01;31m\x1b[K>\x1b[m\x1b[Kget_logger(), "Hello CPP Node");\n'}
+[4.719261] (my_cp_pkg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.719438] (my_cp_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/emon/development/ros2_begginers/src/my_cp_pkg/src/my_first_node.cpp:7:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[4.719613] (my_cp_pkg) StderrLine: {'line': b'    7 |     RCLCPP_INFO(node.\x1b[01;31m\x1b[K>\x1b[m\x1b[Kget_logger(), "Hello CPP Node");\n'}
+[4.719783] (my_cp_pkg) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.814846] (-) TimerEvent: {}
+[4.915184] (-) TimerEvent: {}
+[5.015497] (-) TimerEvent: {}
+[5.115877] (-) TimerEvent: {}
+[5.216282] (-) TimerEvent: {}
+[5.316620] (-) TimerEvent: {}
+[5.416929] (-) TimerEvent: {}
+[5.446723] (my_cp_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cpp_node.dir/build.make:76: CMakeFiles/cpp_node.dir/src/my_first_node.cpp.o] Error 1\n'}
+[5.447295] (my_cp_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/cpp_node.dir/all] Error 2\n'}
+[5.447882] (my_cp_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.451674] (my_cp_pkg) CommandEnded: {'returncode': 2}
+[5.517101] (-) TimerEvent: {}
+[5.617716] (-) TimerEvent: {}
+[5.665449] (my_cp_pkg) JobEnded: {'identifier': 'my_cp_pkg', 'rc': 2}
+[5.676205] (-) EventReactorShutdown: {}
