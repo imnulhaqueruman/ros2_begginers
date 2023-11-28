@@ -12,3 +12,22 @@
 
 ![Alt text](image-2.png)
 #### Many subscribers on a topic 
+
+```bash
+# when you create new nodes you have to add below line in setup.py line 
+ 'console_scripts': [
+            "py_node = my_py_pkg.my_first_node:main",
+            "robot_news_station = my_py_pkg.robot_news_station:main"
+        ]
+   # If file name and node name same it will be helpful
+  # Then build this node in your roswork space 
+  chmod +x robot_news_station # use this for node executeable 
+  # run this package 
+  ros2 run my_py_pkg robot_news_station 
+
+  # open another terminal 
+  # See topic list in the publisher 
+  ros2 topic list 
+  # echo topic to see the publisher data 
+  ros2 topic echo /robot_news
+```
