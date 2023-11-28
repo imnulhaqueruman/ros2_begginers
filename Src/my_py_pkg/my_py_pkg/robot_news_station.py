@@ -9,15 +9,17 @@ class RobotNewsStationNode(Node):
     def __init__(self):
         super().__init__("robot_news_station")
 
+        self.robot_name_= "C3P0"
+
         self.publisher_ = self.create_publisher(String,"robot_news", 10) # create publisher with string data type and with a topic namde in this node , here 10 is a que size as like data buffer. We got publisher_ object 
         self.timer_= self.create_timer(0.5, self.publish_news)
         self.get_logger().info("Robot news Station Has been started")
 
     def publish_news(self):
         msg = String()
-        msg.data = "hello"
+        msg.data = "hi" + str(self.robot_name_) + "from your robot station"
         self.publisher_.publish(msg)
-        
+
 def main(args=None):
     rclpy.init(args=args) ## initialize ros to create ros communiation 
     node = RobotNewsStationNode()
