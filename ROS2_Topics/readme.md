@@ -31,3 +31,15 @@
   # echo topic to see the publisher data 
   ros2 topic echo /robot_news
 ```
+### How to rename ros node and ros topic 
+```bash
+# node rename 
+ros2 run my_py_pkg robot_news_station --ros-args -r __node:= my_station
+
+# topic rename 
+ros2 run my_py_pkg robot_news_station --ros-args -r __node:= my_station -r robot_news:= my_news
+
+# After remapping the publisher node and topic , subscriber node subscribe data by robot_news topic 
+# so subscriber topic also will be remap 
+ros2 run my_py_pkg smartphone --ros-args -r robot_news:= my_news
+```
