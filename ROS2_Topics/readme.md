@@ -43,3 +43,27 @@ ros2 run my_py_pkg robot_news_station --ros-args -r __node:= my_station -r robot
 # so subscriber topic also will be remap 
 ros2 run my_py_pkg smartphone --ros-args -r robot_news:= my_news
 ```
+# Section Conclusion 
+#### In this section you have seen how to use ROS2 Topics to communicate between your nodes.
+
+#### Now, you can already create more complex applications!
+#### To recap, a topic is:
+
+1. A named bus over which nodes exchange messages
+2. Used for unidirectional data streams
+3. Anonymous: publishers don’t know who is subscribing, and subscribers don’t know who is publishing.
+
+#### To implement topics in your ROS2 application:
+1. First create a node (or start from an existing one), then inside your node you can create any number of publishers/subscribers.
+2. A publisher and subscriber must publish/subscribe to the same topic name, and use the same data type. Those are the 2 conditions for successful topic communication.
+
+3. Then, once you’ve added some publishers/subscribers in your nodes, just launch your nodes, and the communication starts! You can debug them using the “ros2” command line tool, as well as rqt.
+
+# Ros2- Topics 
+![Alt text](image-3.png)
+
+#### Note: your topic names should start with a letter (“98.7” is not a valid topic name, it was just used to introduce the concept with a real life analogy).
+
+#### By using nodes, you can easily separate your code into different independent modules, one for each part of your application. And with topics, you can make them communicate.
+
+#### And now, after Topics, the next logical step is to look at ROS2 Services. That’s what we’ll see in the next section.
