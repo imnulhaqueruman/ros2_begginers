@@ -1,0 +1,22 @@
+[0.877s] Invoking command in '/home/emon/development/ros2_begginers/build/my_py_pkg': PYTHONPATH=/home/emon/development/ros2_begginers/build/my_py_pkg/prefix_override:/home/emon/development/ros2_begginers/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emon/development/ros2_begginers/build/my_py_pkg/build --no-deps install_data
+[1.187s] running develop
+[1.374s] running egg_info
+[1.374s] writing my_py_pkg.egg-info/PKG-INFO
+[1.374s] writing dependency_links to my_py_pkg.egg-info/dependency_links.txt
+[1.374s] writing entry points to my_py_pkg.egg-info/entry_points.txt
+[1.374s] writing requirements to my_py_pkg.egg-info/requires.txt
+[1.374s] writing top-level names to my_py_pkg.egg-info/top_level.txt
+[1.377s] reading manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.377s] writing manifest file 'my_py_pkg.egg-info/SOURCES.txt'
+[1.379s] running build_ext
+[1.379s] Creating /home/emon/development/ros2_begginers/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[1.380s] Installing add_two_ints_server script to /home/emon/development/ros2_begginers/install/my_py_pkg/lib/my_py_pkg
+[1.380s] Installing number_counter script to /home/emon/development/ros2_begginers/install/my_py_pkg/lib/my_py_pkg
+[1.380s] Installing number_publisher script to /home/emon/development/ros2_begginers/install/my_py_pkg/lib/my_py_pkg
+[1.380s] Installing py_node script to /home/emon/development/ros2_begginers/install/my_py_pkg/lib/my_py_pkg
+[1.380s] Installing robot_news_station script to /home/emon/development/ros2_begginers/install/my_py_pkg/lib/my_py_pkg
+[1.381s] Installing smartphone script to /home/emon/development/ros2_begginers/install/my_py_pkg/lib/my_py_pkg
+[1.381s] 
+[1.381s] Installed /home/emon/development/ros2_begginers/build/my_py_pkg
+[1.381s] running install_data
+[1.416s] Invoked command in '/home/emon/development/ros2_begginers/build/my_py_pkg' returned '0': PYTHONPATH=/home/emon/development/ros2_begginers/build/my_py_pkg/prefix_override:/home/emon/development/ros2_begginers/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emon/development/ros2_begginers/build/my_py_pkg/build --no-deps install_data
