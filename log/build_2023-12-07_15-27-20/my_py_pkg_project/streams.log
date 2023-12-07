@@ -1,0 +1,18 @@
+[1.070s] Invoking command in '/home/emon/development/ros2_begginers/build/my_py_pkg_project': PYTHONPATH=/home/emon/development/ros2_begginers/build/my_py_pkg_project/prefix_override:/home/emon/development/ros2_begginers/install/my_py_pkg_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emon/development/ros2_begginers/build/my_py_pkg_project/build --no-deps install_data
+[1.431s] running develop
+[1.631s] running egg_info
+[1.631s] writing my_py_pkg_project.egg-info/PKG-INFO
+[1.631s] writing dependency_links to my_py_pkg_project.egg-info/dependency_links.txt
+[1.632s] writing entry points to my_py_pkg_project.egg-info/entry_points.txt
+[1.632s] writing requirements to my_py_pkg_project.egg-info/requires.txt
+[1.632s] writing top-level names to my_py_pkg_project.egg-info/top_level.txt
+[1.634s] reading manifest file 'my_py_pkg_project.egg-info/SOURCES.txt'
+[1.635s] writing manifest file 'my_py_pkg_project.egg-info/SOURCES.txt'
+[1.636s] running build_ext
+[1.636s] Creating /home/emon/development/ros2_begginers/install/my_py_pkg_project/lib/python3.10/site-packages/my-py-pkg-project.egg-link (link to .)
+[1.637s] Installing number_counter script to /home/emon/development/ros2_begginers/install/my_py_pkg_project/lib/my_py_pkg_project
+[1.638s] Installing number_publisher script to /home/emon/development/ros2_begginers/install/my_py_pkg_project/lib/my_py_pkg_project
+[1.638s] 
+[1.638s] Installed /home/emon/development/ros2_begginers/build/my_py_pkg_project
+[1.638s] running install_data
+[1.676s] Invoked command in '/home/emon/development/ros2_begginers/build/my_py_pkg_project' returned '0': PYTHONPATH=/home/emon/development/ros2_begginers/build/my_py_pkg_project/prefix_override:/home/emon/development/ros2_begginers/install/my_py_pkg_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emon/development/ros2_begginers/build/my_py_pkg_project/build --no-deps install_data

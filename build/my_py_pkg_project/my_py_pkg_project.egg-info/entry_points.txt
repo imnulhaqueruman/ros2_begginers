@@ -1,3 +1,4 @@
 [console_scripts]
+number_counter = my_py_pkg_project.number_counter:main
 number_publisher = my_py_pkg_project.number_publisher:main
 

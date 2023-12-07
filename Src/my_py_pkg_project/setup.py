@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             "number_publisher= my_py_pkg_project.number_publisher:main",
+            "number_counter= my_py_pkg_project.number_counter:main"
         ],
     },
 )
