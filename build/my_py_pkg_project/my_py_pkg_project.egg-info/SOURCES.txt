@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+my_py_pkg_project/__init__.py
+my_py_pkg_project/number_publisher.py
+my_py_pkg_project.egg-info/PKG-INFO
+my_py_pkg_project.egg-info/SOURCES.txt
+my_py_pkg_project.egg-info/dependency_links.txt
+my_py_pkg_project.egg-info/entry_points.txt
+my_py_pkg_project.egg-info/requires.txt
+my_py_pkg_project.egg-info/top_level.txt
+my_py_pkg_project.egg-info/zip-safe
+resource/my_py_pkg_project

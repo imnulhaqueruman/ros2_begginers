@@ -1,0 +1,24 @@
+[0.919s] Invoking command in '/home/emon/development/ros2_begginers/build/my_py_pkg_project': PYTHONPATH=/home/emon/development/ros2_begginers/build/my_py_pkg_project/prefix_override:/home/emon/development/ros2_begginers/install/my_py_pkg_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emon/development/ros2_begginers/build/my_py_pkg_project/build --no-deps install_data
+[1.240s] running develop
+[1.434s] running egg_info
+[1.434s] creating my_py_pkg_project.egg-info
+[1.434s] writing my_py_pkg_project.egg-info/PKG-INFO
+[1.434s] writing dependency_links to my_py_pkg_project.egg-info/dependency_links.txt
+[1.434s] writing entry points to my_py_pkg_project.egg-info/entry_points.txt
+[1.434s] writing requirements to my_py_pkg_project.egg-info/requires.txt
+[1.435s] writing top-level names to my_py_pkg_project.egg-info/top_level.txt
+[1.435s] writing manifest file 'my_py_pkg_project.egg-info/SOURCES.txt'
+[1.436s] reading manifest file 'my_py_pkg_project.egg-info/SOURCES.txt'
+[1.437s] writing manifest file 'my_py_pkg_project.egg-info/SOURCES.txt'
+[1.438s] running build_ext
+[1.438s] Creating /home/emon/development/ros2_begginers/install/my_py_pkg_project/lib/python3.10/site-packages/my-py-pkg-project.egg-link (link to .)
+[1.439s] Installing number_publisher script to /home/emon/development/ros2_begginers/install/my_py_pkg_project/lib/my_py_pkg_project
+[1.439s] 
+[1.439s] Installed /home/emon/development/ros2_begginers/build/my_py_pkg_project
+[1.440s] running install_data
+[1.440s] creating /home/emon/development/ros2_begginers/install/my_py_pkg_project/share/ament_index
+[1.440s] creating /home/emon/development/ros2_begginers/install/my_py_pkg_project/share/ament_index/resource_index
+[1.440s] creating /home/emon/development/ros2_begginers/install/my_py_pkg_project/share/ament_index/resource_index/packages
+[1.440s] copying resource/my_py_pkg_project -> /home/emon/development/ros2_begginers/install/my_py_pkg_project/share/ament_index/resource_index/packages
+[1.440s] copying package.xml -> /home/emon/development/ros2_begginers/install/my_py_pkg_project/share/my_py_pkg_project
+[1.475s] Invoked command in '/home/emon/development/ros2_begginers/build/my_py_pkg_project' returned '0': PYTHONPATH=/home/emon/development/ros2_begginers/build/my_py_pkg_project/prefix_override:/home/emon/development/ros2_begginers/install/my_py_pkg_project/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/emon/development/ros2_begginers/build/my_py_pkg_project/build --no-deps install_data

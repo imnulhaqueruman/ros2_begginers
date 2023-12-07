@@ -40,3 +40,9 @@
  # Please follow the full code in  /Src/my_py_pkg/my_pkg 
 
 ```
+# Service Rename 
+```bash
+ros2 run my_py_pkg add_two_ints_server --ros-args -r add_two_ints:= new_name
+# Then you have to rename ros2 service client 
+ros2 run my_py_pkg add-two_ints-client --ros-args -r add_two_ints=new_name
+```

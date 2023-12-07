@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating my_py_pkg_project.egg-info
+writing my_py_pkg_project.egg-info/PKG-INFO
+writing dependency_links to my_py_pkg_project.egg-info/dependency_links.txt
+writing entry points to my_py_pkg_project.egg-info/entry_points.txt
+writing requirements to my_py_pkg_project.egg-info/requires.txt
+writing top-level names to my_py_pkg_project.egg-info/top_level.txt
+writing manifest file 'my_py_pkg_project.egg-info/SOURCES.txt'
+reading manifest file 'my_py_pkg_project.egg-info/SOURCES.txt'
+writing manifest file 'my_py_pkg_project.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/emon/development/ros2_begginers/install/my_py_pkg_project/lib/python3.10/site-packages/my-py-pkg-project.egg-link (link to .)
+Installing number_publisher script to /home/emon/development/ros2_begginers/install/my_py_pkg_project/lib/my_py_pkg_project
+
+Installed /home/emon/development/ros2_begginers/build/my_py_pkg_project
+running install_data
+creating /home/emon/development/ros2_begginers/install/my_py_pkg_project/share/ament_index
+creating /home/emon/development/ros2_begginers/install/my_py_pkg_project/share/ament_index/resource_index
+creating /home/emon/development/ros2_begginers/install/my_py_pkg_project/share/ament_index/resource_index/packages
+copying resource/my_py_pkg_project -> /home/emon/development/ros2_begginers/install/my_py_pkg_project/share/ament_index/resource_index/packages
+copying package.xml -> /home/emon/development/ros2_begginers/install/my_py_pkg_project/share/my_py_pkg_project
